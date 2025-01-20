@@ -2,9 +2,9 @@ package org.example;
 
 public interface Employee {
     public void ViewAllEmployees();
-    void AddEmployee();
-    void EditEmployee();
-    void DeleteEmployee();
+    public void AddEmployee();
+    public void EditEmployee();
+    public void DeleteEmployee(int employeeNumber);
 
 
 }
