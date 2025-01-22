@@ -1,18 +1,28 @@
 package org.example;
 
 public class EmployeeDetails {
+    private int employeeId;
     private String name;
     private int employeeNumber;
     private String position;
     private String department;
     private double salary;
 
-    public EmployeeDetails(String name, int employeeNumber, String position, String department, double salary){
+    public EmployeeDetails(int employeeId, String name, int employeeNumber, String position, String department, double salary){
+        this.employeeId = employeeId;
         this.name = name;
         this.employeeNumber = employeeNumber;
         this.position = position;
         this.department = department;
         this.salary = salary;
+    }
+
+    public int getEmployeeId() {
+        return employeeId;
+    }
+
+    public void setEmployeeId(int employeeId) {
+        this.employeeId = employeeId;
     }
 
     public int getEmployeeNumber() {

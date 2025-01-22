@@ -18,6 +18,8 @@ public class Main {
         System.out.println("After deletion:");
         manager.ViewAllEmployees();
 
+        manager.EditEmployee();
+
 
 
     }
